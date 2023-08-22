@@ -1,0 +1,404 @@
+*{
+    box-sizing: border-box;
+}
+/* toto psát vždycky na začátku*/
+
+body{
+    font-family: sans-serif;
+}
+
+.container{
+    max-width: 1140px;
+    width: 96%;
+    margin-left: auto; /* toto zajistí aby to bylo naprostředku */
+    margin-right: auto; /* toto zajistí aby to bylo naprostředku */
+    
+}
+/* toto slouží k rozložení stránky*/
+
+.navbar{
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 160px;
+}
+
+/* toto slouží pro rozložení stránky, treba space-between atd.
+/* Style for "Petr Veselý" */
+.logo {
+    /* Style for "Petr Veselý" */
+color: #95989a;
+font-family: "Helvetica Neue";
+font-size: 20px;
+font-weight: 700;
+text-transform: uppercase; /* všechny písmena budou velký */
+
+}
+
+.top-header {
+
+    padding-top: 70px; /* toto slouží pro odsunuti ze zvrchu*/
+    padding-bottom: 170px;
+    background-color: #f4f5f7;
+}
+
+.socials a {
+    text-decoration: none; /* toto slouží pro odstranění picovin na obrazku */
+    margin-left: 20px; /* toto slouží pro udelani mezer mezi ikonami*/
+}
+
+.main {
+    display: flex;
+    justify-content: space-between; /* toto slouží pro rozdělení vedle sebe*/
+    align-items: center;
+}
+
+.main-text {
+    width: 100%;
+}
+
+.main-image img{
+    width: 100%;
+    
+}
+
+
+
+
+.subtitle{
+    /* Style for "Předprodej" */
+color: #32325f;
+font-family: "Helvetica Neue";
+font-size: 20px;
+font-weight: 400;
+margin-bottom: 15px;
+display: block; /* musím dát aby se to odsadilo */
+}
+
+.title{
+    /* Style for "Cesta Free" */
+color: #32325f;
+font-family: "Helvetica Neue";
+font-size: 48px;
+font-weight: 700;
+margin-bottom: 25px;
+}
+
+.desc{
+ /* Style for "Objednejte" */
+
+color: #32325f;
+font-family: "Helvetica Neue";
+font-size: 20px;
+font-weight: 400;
+line-height: 26px;
+text-align: left;
+display: block;
+margin-bottom: 27px;
+
+}
+
+.price-tag {
+    /* Style for "Cena" */
+
+color: #32325f;
+font-family: "Helvetica Neue";
+font-size: 20px;
+font-weight: 400;
+text-align: left;
+display: block;
+margin-bottom: 20px;
+
+}
+
+.price{
+    /* Style for "390 kč" */
+
+color: #525f7f;
+font-family: "Helvetica Neue";
+font-size: 48px;
+font-weight: 400;
+text-align: left;
+display: block;
+
+}
+
+.buttons{
+    margin-top: 50px;
+}
+
+.btn{
+
+    /* Style for "Objednat k" */
+width: 146px;
+height: 24px;
+color: #ffffff;
+font-family: "Helvetica Neue";
+font-size: 20px;
+font-weight: 700;
+text-align: center;
+padding: 20px 30px;
+text-decoration: none;
+margin-right: 30px;
+
+}
+.green {
+    /* Style for "Rectangle" */
+width: 214px;
+height: 66px;
+box-shadow: 0 3px 6px rgba(173, 173, 173, 0.16);
+border-radius: 6px;
+background-color: #2dce89;
+}
+
+.blue{
+
+    /* Style for "Rectangle" */
+width: 250px;
+height: 66px;
+box-shadow: 0 3px 6px rgba(173, 173, 173, 0.16);
+border-radius: 6px;
+background-color: #5e72e4;
+}
+
+.about {
+    padding: 100px 0;
+}
+
+.about-subheadline{
+
+color: #32325f;
+font-family: "Helvetica Neue";
+font-size: 20px;
+font-weight: 400;
+display: block;
+margin-bottom: 15px;
+
+}
+
+.about-headline{
+    /* Style for "Cesta Free" */
+
+color: #32325f;
+font-family: "Helvetica Neue";
+font-size: 48px;
+font-weight: 700;
+text-align: left;
+margin-bottom: 100px;
+}
+
+.about-item span{
+    display: block;
+    /* Style for "Hlavní pos" */
+
+color: #525f7f;
+font-family: "Helvetica Neue";
+font-size: 16px;
+font-weight: 400;
+text-align: left;
+margin-right: 35px;
+line-height: 1.2;
+}
+
+.about-wrap{
+    display: flex;
+}
+
+.about-item{
+    width: 25%;
+}
+
+.about-item img{
+    margin-bottom: 40px;
+}
+
+.footer{
+    background-color: #32325f;
+    padding-bottom: 100px;
+    padding-top: 80px;
+    
+}
+
+.footer-link{
+    text-decoration: none;
+    color: #fff;
+    display: block;
+    margin-bottom: 7px;
+
+}
+
+.footer-wrap{
+    display: flex;/* toto slouží pro zarovnání do sloupců*/
+    justify-content: space-between;
+    
+}
+
+.footer-block{
+    width: 33%;
+}
+
+.footer-header{
+    /* Style for "Kontaktní" */
+
+color: #ffffff;
+font-family: "Helvetica Neue";
+font-size: 24px;
+font-weight: 700;
+text-align: left;
+margin-bottom: 35px;
+}
+
+.footer-name{
+
+color: #ffffff;
+font-family: "Helvetica Neue";
+font-size: 16px;
+font-weight: 700;
+}
+
+.pictures {
+    /* Style for "beard-1867" */
+/* Style for "beard-1867" */
+
+display: flex;
+justify-content: space-between;
+margin-right: 30px;
+margin-bottom: 36px;
+flex-wrap: wrap;
+
+}
+
+.people{
+    padding-bottom: 112px;
+    background-color: #f4f5f7;
+    padding-top: 90px;
+}
+
+.people-small{
+    /* Style for "Tito lidé" */
+
+color: #32325f;
+font-family: "Helvetica Neue";
+font-size: 20px;
+font-weight: 400;
+text-align: left;
+margin-bottom: 20px;
+display: block;
+
+}
+
+.people-order{
+    /* Style for "Knihu obje" */
+
+color: #32325f;
+font-family: "Helvetica Neue";
+font-size: 48px;
+font-weight: 700;
+text-align: left;
+display: block;
+margin-bottom: 65px;
+
+}
+
+.about-block{
+    width: 32%;
+    margin-bottom: 30px;
+}
+
+.about-block img{
+    width: 100%;
+    object-fit: cover;
+    height: 100%;        /* toto slouží aby obrazky zustali pekne zarovnané v gridu*/
+}
+
+
+@media (max-width:1024px){
+
+.buttons {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+}
+
+.btn{
+    display: inline-block;
+    max-width: 250px;
+    text-align: center;
+    width: 100%;
+    margin-top: 10px;
+}
+.about{
+    padding: 80px 0 40px;
+}
+    
+} /* toto slouží pro všechno co je menší než 1200px */
+
+@media (max-width:768px){
+    .main-image .main-text{
+        width: 100%;
+    }
+
+    .main-text{
+        order: 1;
+
+    
+    }
+    .main{
+        flex-direction: column;
+    }
+    
+    .navbar{
+        margin-bottom: 100px;
+    }
+
+    .top-header{
+        padding-bottom: 100px;
+    }
+    .about-block{
+        width: 48%;
+       
+    }
+
+    .footer-wrap{
+        flex-wrap: wrap;
+    }
+
+    .footer-block{
+        width: 50%;
+        margin-bottom: 30px;
+    }
+
+   .subtitle{
+    margin-top: 60px;
+   }
+
+    
+    }
+
+
+    @media (max-width:1116px){
+        .about-item{
+            width: 50%;
+        }
+
+        .about-wrap{
+            flex-wrap: wrap;
+        }
+    }
+
+    @media (max-width:580px){
+        .about-item{
+            width: 100%;
+            flex-wrap: wrap;
+        }
+        .pictures{
+            width: 100;
+        }
+        .footer-block{
+            width: 100%;
+            
+        }
+    .footer{
+        padding-bottom: 0;
+    }
+
+    }
