@@ -1,0 +1,302 @@
+*{
+    box-sizing: border-box;
+}
+
+.container{
+    max-width: 1140px;
+    width: 96%;
+   margin-left: auto;
+   margin-right: auto;
+}
+
+.header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+   
+}
+
+.main-text{
+    order: 1;
+    width: 50%;
+    margin-top: 136px;
+    margin-bottom: 230px;
+}
+
+.top-header{
+    background-color: #ffffff;
+}
+
+.h1{
+    /* Style for "Where Did" */
+
+color: #000000;
+font-family: Tahoma;
+font-size: 48px;
+font-weight: 700;
+margin-bottom: 23px;
+}
+
+.h2{
+    /* Style for "Christina" */
+
+color: #000000;
+font-family: Tahoma;
+font-size: 30px;
+font-weight: 400;
+margin-bottom: 41px;
+text-align: center;
+
+}
+
+.desc{
+    /* Style for "Where Did" */
+
+color: #000000;
+font-family: Tahoma;
+font-size: 18px;
+font-weight: 400;
+font-style: normal;
+letter-spacing: normal;
+line-height: 27px;
+margin-bottom: 50px;
+}
+
+.price{
+    /* Style for "$14.99" */
+
+color: #313131;
+font-family: Tahoma;
+font-size: 48px;
+font-weight: 400;
+font-style: normal;
+letter-spacing: normal;
+line-height: 27px;
+}
+
+.btn{
+    color: #4572d7;
+    font-family: Tahoma;
+    font-size: 24px;
+    font-weight: 700;
+    font-style: normal;
+    letter-spacing: normal;
+    line-height: 27px;
+    text-align: center;
+    text-decoration: none;
+    margin-top: 55px;
+    display:inline-block;
+    margin-right: 25px;
+   
+}
+.blue{
+    /* Style for "copy 1" */
+/* Style for "copy 1" */
+width: 175px;
+height: 67px;
+border-radius: 5px;
+border: 1px solid #4572d7;
+background-color: #4572d7;
+color: #ffffff;
+padding: 20px 60px;
+}
+
+.white{
+    /* Style for "Copy 1" */
+/* Style for "Copy 1" */
+width: 287px;
+height: 67px;
+border-radius: 5px;
+border: 2px solid #4572d7;
+padding: 20px 70px;
+}
+
+.main-image{
+    /* Style for "pngjoy.com" */
+
+margin-top: 160px;
+margin-bottom: 230px;
+margin-right: 31px;
+
+}
+
+.main-shipping{
+    /* Style for "Background" */
+width: 100%;
+height: 408px;
+border: 1px solid #ffffff;
+background-color: #f2f2f2;
+
+}
+
+.title-shipping{
+    /* Style for "Shipping a" */
+
+color: #333333;
+font-family: Tahoma;
+font-size: 30px;
+font-weight: 700;
+font-style: normal;
+letter-spacing: normal;
+text-align:center;
+margin-top: 88px;
+margin-bottom: 90px;
+margin-left: 400px;
+margin-right: 400px;
+
+}
+
+
+
+.hlavní{
+
+display: flex;
+justify-content: space-between;
+margin-left: 130px;
+margin-right: 50px;
+text-align: center;
+   
+    
+}
+
+.main-desc span{
+   /* Style for "Free shipp" */
+
+color: #333333;
+font-family: "Open Sans";
+font-size: 18px;
+font-weight: 400;
+font-style: normal;
+letter-spacing: normal;
+line-height: 25px;
+text-align: center;
+/* Text style for "Free shipp" */
+font-style: normal;
+letter-spacing: normal;
+line-height: normal;
+display: block;
+}
+
+.main-desc img{
+    /* Style for "Shopping c" */
+width: 54px;
+height: 50px;
+}
+
+.bought{
+    /* Style for "Already bo" */
+color: #333333;
+font-family: Tahoma;
+font-size: 30px;
+font-weight: 700;
+font-style: normal;
+letter-spacing: normal;
+line-height: 27px;
+text-align: center;
+margin-bottom: 69px;
+margin-left: 400px;
+margin-top: 88px;
+margin-right: 400px;
+}
+
+.people-wrap{
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+.img1{
+    width: 27%;
+    margin-bottom: 35px;
+    object-fit: cover;
+    width: 261px;
+    height: 261px;
+  
+}
+
+.people{
+    margin-bottom: 111px;
+}
+
+
+@media (max-width: 1090px){
+ 
+.buttons{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+}
+
+.btn{
+    display: inline-block;
+    max-width: 250px;
+    text-align: center;
+    width: 100%;
+    margin-top: 10px;
+    height: 70%;
+}
+
+.price{
+    display: flex;
+    margin-bottom: 50px;
+}
+}
+
+@media(max-width: 777px){
+
+    .main-image{
+        width: 100%;
+        margin-bottom: 10px;
+    }
+
+    .main-text{
+    order: 1;
+    }
+
+    .header{
+        flex-direction: column;
+    }
+
+    .hlavní{
+        flex-wrap: wrap;
+        margin-left: auto;
+        margin-right: auto;
+    }
+
+    .main-desc{
+        width: 100%;
+    }
+    .main-shipping{
+        height:100%
+    }
+
+    .title-shipping{
+        text-align: center;
+        margin:auto;
+        margin-bottom: 45px;
+        margin-top: 20px;
+    }
+
+    .main-desc span{
+        margin-bottom: 20px;
+    }
+
+    .people-wrap{
+        width: 100%;
+    }
+
+    .about-people{
+        width: 48%;
+    }
+    .bought{
+        margin: auto;
+        margin-bottom: 60px;
+        margin-top: 40px;
+    }
+    }
+
+@media(max-width: 540px){
+    .about-people{
+        margin-right: 10px;
+    }
+}
